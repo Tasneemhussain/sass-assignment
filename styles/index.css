@@ -1,0 +1,306 @@
+header {
+  display: flex;
+  box-sizing: border-box;
+  font-weight: 500;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  height: 23px;
+  margin-left: 125px;
+  margin-top: 61px;
+}
+
+.nav {
+  display: flex;
+}
+.nav__li {
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+  letter-spacing: -0.346154px;
+  color: #111111;
+}
+.nav__list {
+  display: flex;
+}
+
+.logo {
+  margin-left: 30px;
+  font-size: 30px;
+}
+
+.main-box {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-box {
+  width: 1080px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-info {
+  display: flex;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 38px;
+  color: #111111;
+  width: 450px;
+  height: 106px;
+  margin-left: 125px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 15px;
+  color: #111111;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+  padding: 10px;
+}
+
+.column-list {
+  column-count: 2;
+}
+
+.main_box {
+  display: flex;
+  margin-top: 150px;
+  margin-left: 126px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  /* identical to box height */
+  letter-spacing: 1px;
+  color: #4A4FF2;
+  font-family: "Mulish", sans-serif;
+}
+
+.main-box1 {
+  margin-top: 156px;
+  margin-left: 125px;
+}
+
+.main-box2 {
+  margin-top: 300px;
+  margin-left: 200px;
+}
+
+.info {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 60px;
+  color: #111111;
+  margin-top: 32px;
+  width: 635px;
+  height: 400px;
+  font-family: "Mulish", sans-serif;
+}
+
+.color {
+  color: #4A4FF2;
+}
+
+.title2 {
+  width: 212px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #111111;
+  opacity: 0.6;
+  margin-right: 20px;
+  font-family: "Mulish", sans-serif;
+}
+
+.container__grid {
+  display: grid;
+  padding: 10px;
+  background-color: white;
+  max-width: 1000px;
+  width: 100%;
+  max-height: 1500px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(32, 1fr);
+  gap: 10px 10px;
+  margin-left: 100px;
+}
+
+.grid__element {
+  overflow: hidden;
+  position: relative;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+
+.photo1 {
+  grid-row: 1/7;
+  grid-column: 1/2;
+}
+
+.photo2 {
+  grid-row: 1/6;
+  grid-column: 2/3;
+}
+
+.photo3 {
+  grid-row: 1/10;
+  grid-column: 3/4;
+}
+
+.photo4 {
+  grid-row: 7/15;
+  grid-column: 1/2;
+}
+
+.photo5 {
+  grid-row: 6/13;
+  grid-column: 2/3;
+}
+
+.photo6 {
+  grid-row: 10/17;
+  grid-column: 3/4;
+}
+
+.photo7 {
+  grid-row: 15/23;
+  grid-column: 1/2;
+}
+
+.photo8 {
+  grid-row: 13/22;
+  grid-column: 2/3;
+}
+
+.photo9 {
+  grid-row: 17/26;
+  grid-column: 3/4;
+}
+
+.photo10 {
+  grid-row: 23/32;
+  grid-column: 1/2;
+}
+
+.photo11 {
+  grid-row: 22/32;
+  grid-column: 2/3;
+}
+
+.photo12 {
+  grid-row: 26/32;
+  grid-column: 3/4;
+}
+
+.card-a {
+  display: flex;
+}
+
+.card-b {
+  display: flex;
+  margin-left: 250px;
+}
+
+.card-c {
+  display: flex;
+  margin-left: 320px;
+}
+
+.container-cards {
+  margin-left: 125px;
+}
+
+.line {
+  background: #D8D8D8;
+  height: 2px;
+  width: 80%;
+  margin-left: 125px;
+  margin-top: 100px;
+}
+
+.award {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  color: #111111;
+  margin-left: 125px;
+  font-family: "Mulish", sans-serif;
+  margin-top: 50px;
+}
+
+.title-a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #111111;
+  font-family: "Mulish", sans-serif;
+  width: 125px;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.info-a {
+  margin-left: 100px;
+  width: 190px;
+  margin-top: 50px;
+}
+
+.date-a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  color: #111111;
+  width: 39px;
+  margin-left: 60px;
+  margin-top: 50px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  height: 30px;
+  margin-left: 125px;
+  margin-top: 61px;
+}
+
+.logoi {
+  width: 15px;
+}
+
+.icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px 5px;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+}

@@ -1,0 +1,70 @@
+.grid__element{
+    overflow: hidden;
+    position: relative;
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.photo1 {
+	grid-row: 1 / 7;
+    grid-column: 1 / 2;
+}
+
+.photo2 {
+	grid-row: 1 / 6;
+    grid-column: 2 / 3;
+}
+
+.photo3 {
+	grid-row: 1 / 10;
+    grid-column: 3 / 4;
+}
+
+.photo4 {
+	grid-row: 7 / 15;
+    grid-column: 1 / 2;
+}
+
+.photo5 {
+	grid-row: 6 / 13;
+    grid-column: 2 / 3;
+}
+
+.photo6 {
+	grid-row: 10 / 17;
+    grid-column: 3 / 4;
+}
+
+.photo7 {
+	grid-row: 15 / 23;
+    grid-column: 1 / 2;
+}
+
+.photo8 {
+	grid-row: 13 / 22;
+    grid-column: 2 / 3;
+}
+
+.photo9 {
+	grid-row: 17 / 26;
+    grid-column: 3 / 4;
+}
+
+.photo10 {
+	grid-row: 23 / 32;
+    grid-column: 1 / 2;
+}
+
+.photo11 {
+	grid-row: 22 / 32;
+    grid-column: 2 / 3;
+}
+
+.photo12 {
+	grid-row: 26 / 32;
+    grid-column: 3 / 4;
+}

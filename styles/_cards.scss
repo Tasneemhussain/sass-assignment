@@ -1,0 +1,81 @@
+.card-a{
+    display: flex;
+    
+
+}
+.card-b{
+    display: flex;
+    margin-left: 250px;
+ 
+}
+.card-c{
+    display: flex;
+    margin-left: 320px;
+}
+.container-cards{
+    margin-left: 125px;
+}
+
+.line{
+    background: #D8D8D8;
+    height: 2px;
+    width: 80%;
+    margin-left: 125px;
+    margin-top: 100px;
+}
+
+.award{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: #111111;
+    margin-left: 125px;
+    font-family: fonts.$main-font ; 
+    margin-top: 50px;
+}
+.title-a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #111111;
+    font-family: fonts.$main-font ; 
+    width: 125px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.info-a{
+    margin-left: 100px;
+    width: 190px;
+    margin-top: 50px;
+}
+.date-a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    color: #111111;
+    width: 39px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 30px;
+    margin-left: 125px;
+    margin-top: 61px;
+}
+.logoi {
+    width: 15px;
+}
+.icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px 5px;
+
+    
+}
