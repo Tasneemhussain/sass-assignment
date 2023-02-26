@@ -1,17 +1,17 @@
 .card-a{
     display: flex;
-    
-
 }
+
 .card-b{
     display: flex;
     margin-left: 250px;
- 
 }
+
 .card-c{
     display: flex;
     margin-left: 320px;
 }
+
 .container-cards{
     margin-left: 125px;
 }
@@ -25,7 +25,7 @@
 }
 
 .award{
-    font-style: normal;
+    font-style: fonts.$font-style;
     font-weight: 700;
     font-size: 22px;
     line-height: 28px;
@@ -34,8 +34,9 @@
     font-family: fonts.$main-font ; 
     margin-top: 50px;
 }
+
 .title-a{
-    font-style: normal;
+    font-style: fonts.$font-style;
     font-weight: 700;
     font-size: 18px;
     line-height: 23px;
@@ -45,13 +46,15 @@
     margin-left: 200px;
     margin-top: 50px;
 }
+
 .info-a{
     margin-left: 100px;
     width: 190px;
     margin-top: 50px;
 }
+
 .date-a{
-    font-style: normal;
+    font-style: fonts.$font-style;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
@@ -61,6 +64,7 @@
     margin-left: 60px;
     margin-top: 50px;
 }
+
 footer{
     display: flex;
     justify-content: space-between;
@@ -69,7 +73,8 @@ footer{
     margin-left: 125px;
     margin-top: 61px;
 }
-.logoi {
+
+.logoi{
     width: 15px;
 }
 
@@ -78,11 +83,12 @@ footer{
     width: 100%;
     margin-left: 125px;
     margin-top: 60px;
-
 }
+
 .mapimg{
     margin-left: 125px;
 }
+
 .label{
     font-weight: 700;
     font-size: 16px;
@@ -92,8 +98,8 @@ footer{
     width: 68px;
     font-family: fonts.$main-font ; 
     margin-top: 5px;
-
 }
+
 .input{
     width: 100%;
     padding: 5px 5px;
@@ -101,9 +107,4 @@ footer{
     border: none;
     border-bottom: 2px solid;
     opacity: 0.1;
-    
 }
-
-
-
-
