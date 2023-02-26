@@ -12,7 +12,6 @@ $main-text-color: black;
     font-weight: 600;
     font-size: 22px;
     line-height: 28px;
-    /* identical to box height */
     letter-spacing: 1px;
     color: #4A4FF2;
     font-family: fonts.$main-font ; 
@@ -66,9 +65,65 @@ $main-text-color: black;
     grid-template-rows: repeat(32, 1fr);
     gap: 10px 10px;
     margin-left: 100px;
-    
-    
 }
+.title-pj{
+    width: 475px;
+    font-family: fonts.$main-font ;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 55px;
+    color: #111111;
+    margin-left: 125px;
+    margin-top: 100px
+}
+.info-pj{
+    font-family: fonts.$main-font ;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #111111;
+    opacity: 0.8;
+    margin-left: 125px;
+    width: 635px;
+}
+.container-boxpj{
+    display: flex;
+}
+.info-pjt{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #111111;
+    opacity: 0.8;
+    margin-left: 125px;
+    margin-top: 45px;
+    max-width: 1109px;
+    width: 100%;
+
+}
+.title-ct{
+    font-family: fonts.$main-font ;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    color: #111111;
+    margin-left: 125px;
+    margin-top: 100px;
+    width: 475px;
+}
+.info-ct{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #111111;
+    opacity: 0.8;
+    margin-left: 125px;
+    font-family: fonts.$main-font ;
+    width: 445px
+
+}
+
+
 
 @import'container';
 

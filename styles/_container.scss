@@ -68,3 +68,52 @@
 	grid-row: 26 / 32;
     grid-column: 3 / 4;
 }
+.cardspj-a {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1110px;
+    width: 100%;
+    margin-left: 125px;
+    margin-top: 80px;
+
+}
+.container-boxct{
+    display: flex;
+}
+.boxct-left{
+    width: 300px;
+    margin-top: 100px;
+    display: flex;
+    margin-left: 200px;
+    
+}
+.btn{
+    background: #4A4FF2;
+    width: 100px;
+    height: 40px;
+    margin-top: 40px;
+    border-style: none;
+    color: azure;
+}
+.tr {
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+  }
+
+.table {
+    border-collapse: collapse;
+    width: 335px;
+    height: 345px;
+    margin-left: 100px;
+}
+
+.boxpj-b{
+    margin-top: 100px;
+    
+}
+
+
+
+
+
+
